@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: bloom-filter
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bloom_filter
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+bloom-filter:
+  expected-number-of-entries: 1000000
+  false-positive-percent: 0.05
+
+server:
+  port: 1980
