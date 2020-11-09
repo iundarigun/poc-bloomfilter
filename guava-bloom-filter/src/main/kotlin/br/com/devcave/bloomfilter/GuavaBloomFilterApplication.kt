@@ -7,8 +7,8 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication
 @EnableConfigurationProperties(value = [BloomFilterProperties::class])
-class BloomFilterApplication
+class GuavaBloomFilterApplication
 
 fun main(args: Array<String>) {
-	runApplication<BloomFilterApplication>(*args)
+	runApplication<GuavaBloomFilterApplication>(*args)
 }

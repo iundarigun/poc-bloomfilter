@@ -1,7 +1,7 @@
 # Bloom filter
 
 ### TL;DR
-This repo aims to be a PoC for use guava `bloom filter` using postgres to verify positives. 
+This repo aims to be a PoC for use guava and Redis `bloom filter` using postgres to verify positives. 
 
 ### Postgres in docker
 
@@ -18,8 +18,8 @@ I implemented the next operations:
 - Verify entry
 - Delete entry from database (need manual rebuild bloom filter to get this kind of changes)
 
-### TODO
-Implement using redis `redisson` lib
+### Results 
+Implement using redis `redisson` lib, the performance seems worse than guava lib.
 
 ### References
 

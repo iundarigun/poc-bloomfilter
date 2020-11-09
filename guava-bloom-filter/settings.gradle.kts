@@ -1,1 +1,1 @@
-rootProject.name = "bloom-filter"
+rootProject.name = "guava-bloom-filter"
